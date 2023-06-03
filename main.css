@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Jost', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+    background-color: black;
+
+
+}
+.logo img{
+    max-width: 120px;
+    height: auto;
+   
+}
+.navmenu{
+    display: flex;
+    margin-left: 10%;
+}
+.navmenu a{
+    color: pink;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    font-weight: 400;
+    transition: all .42s ease;
+}
+.navmenu a:hover{
+    color: rgb(22, 181, 202);
+}
+.nav-icon{
+    display: flex;
+    align-items: center;
+    margin-left: 80%;
+  
+}
+.nav-icon i{
+    margin-right: 20px;
+    color: pink;
+    font-size: 25px;
+    font-weight: 400;
+    transform: all .42s ease;
+}
+.nav-icon i:hover{
+    color: rgb(22, 181, 202);
+}
+section{
+    padding: 5% 10%;
+
+}
+.main-home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(image.png);
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+}
+.main-text h5{
+    color: rgb(226, 0, 0);
+    font-size: 36px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.main-text p{
+    color: black;
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.main-btn{
+    display: inline-block;
+    color: #111;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: 2px solid #111;
+    padding: 12px 25px;
+    transition: all .42s ease;
+
+
+}
+.main-btn i{
+    vertical-align: middle;
+}
